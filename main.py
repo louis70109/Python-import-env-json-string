@@ -32,7 +32,7 @@ if __name__ == "__main__":
         temp.seek(0)
         print(temp.read())
         print(temp.name)
-        os.environ['SOME_KEY'] = temp.name
+        os.environ['SOME_KEY_PATH'] = temp.name
         uvicorn.run("main:app", host="0.0.0.0", port=8080, reload=True)
     finally:
         temp.close()
