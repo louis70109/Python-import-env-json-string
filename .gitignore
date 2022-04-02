@@ -20,5 +20,5 @@ var/
 .idea/*
 .DS_Store
 .tox/
-a
-b
+a.py
+b.py
