@@ -17,7 +17,8 @@ app = FastAPI()
 async def root():
     print('=' * 20)
     print(os.environ['SOME_KEY'])
-    with open(os.environ['SOME_KEY']) as f:
+    print(os.environ['SOME_KEY_PATH'])
+    with open(os.environ['SOME_KEY_PATH']) as f:
         lines = f.read()
         print(lines)
         print(type(lines))
