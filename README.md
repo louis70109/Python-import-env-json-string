@@ -19,7 +19,7 @@ docker-compose up
 ```
 
 ```shell
-curl http://localhost:5000/
+curl http://localhost:8080/
 ```
 
 ## LICENSE
